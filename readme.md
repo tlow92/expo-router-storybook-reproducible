@@ -24,7 +24,7 @@ This repo is a combination of two guides:
 
 ### Additional modifications after following the guides
 
-1. Changed .ondevice/stories/Button/Button.tsx to include some import from expo-router (`this is what causes the error`):
+1. Changed [.ondevice/stories/Button/Button.tsx](.ondevice/stories/Button/Button.tsx) to include some import from expo-router (`this is what causes the error`):
 
 ```tsx
 import { Link } from "expo-router";
@@ -34,4 +34,4 @@ import { Link } from "expo-router";
 </Link>
 ```
 
-2. Added `+html.tsx` as `<Root>` decorator in storybook preview (.storybook/preview.tsx) in order to add possible missing expo-router providers
+2. Added [+html.tsx](app/+html.tsx) as `<Root>` decorator in storybook preview (.storybook/preview.tsx) in order to add possible missing expo-router providers
