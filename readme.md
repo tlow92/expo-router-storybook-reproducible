@@ -137,7 +137,7 @@ import { Link } from "expo-router";
 
 
 ### Fix
-Adding `babel-preset-expo` list of modules to transpile
+Adding `babel-preset-expo` list of modules to transpile in the `main.ts`
 
 ```
 {
