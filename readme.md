@@ -134,16 +134,3 @@ import { Link } from "expo-router";
 ```
 
 2. Added [+html.tsx](app/+html.tsx) as `<Root>` decorator in storybook preview (.storybook/preview.tsx) in order to add possible missing expo-router providers
-
-
-### Fix
-Adding `babel-preset-expo` list of modules to transpile in the `main.ts`
-
-```
-{
-  name: "@storybook/addon-react-native-web",
-  options: {
-    modulesToTranspile: ["babel-preset-expo"],
-  },
-}
-```
